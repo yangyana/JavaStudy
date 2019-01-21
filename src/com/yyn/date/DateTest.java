@@ -60,7 +60,7 @@ public class DateTest {
 
 //        9	void setTime(long time)/重新设置毫秒数
 //        用自1970年1月1日00:00:00 GMT以后time毫秒数设置时间和日期。
-        b.setTime(System.currentTimeMillis());
+        b.setTime(System.currentTimeMillis());//设置为当前日期的毫秒数
         System.out.println(b.toString());//Mon Jan 07 22:06:37 CST 2019
 
 
@@ -100,5 +100,9 @@ public class DateTest {
 
         }
 
+        //格式化输出距离当前日期前7天6小时5分4秒的时间
+        Date aa = new Date(System.currentTimeMillis()-1000*(4+5*60+6*60*60+7*24*60*60));
+        SimpleDateFormat bb=new SimpleDateFormat("YYYY/MM/dd HH:mm:ss");
+        System.out.println(bb.format(aa));//用bb格式化aa并输出
     }
 }
