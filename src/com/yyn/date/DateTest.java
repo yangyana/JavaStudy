@@ -1,7 +1,5 @@
 package com.yyn.date;
 
-import com.yyn.AA;
-
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;

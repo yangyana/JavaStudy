@@ -1,11 +1,11 @@
-package com.yyn.demo;
+package com.yyn.test;
 
 /**
  * Created By Administrator
  * Date: 2018/11/29
  * Time: 20:38
  */
-public class Test {
+public class YunSuanFuTest {
     public static void main(String[] args) {
         int a = 2, b = ++a + a--;
         System.out.println("a = " + a + "  b = " + b);//a =   b =

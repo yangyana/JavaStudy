@@ -1,4 +1,4 @@
-package com.yyn.demo;
+package com.yyn.jichuyufa;
 
 /**
  * Created By Administrator
@@ -34,7 +34,6 @@ public class Array {
 
         String[] strArray4 = new String[]{"4杨雅娜小可爱", "4aaaa"};
 
-        System.out.println(strArray4[0]);
         System.out.println(strArray4[1]);
 
 

@@ -1,13 +1,13 @@
-package com.yyn.demo2;
-
-import com.yyn.demo.YangYaNa;
+package com.yyn.jichuyufa;
 
 /**
  * Created By Administrator
  * Date: 2018/11/10
  * Time: 20:44
  */
-public class Yang2 extends YangYaNa{
+public class Yang {
+
+
     public static void main(String []args){
 
         System.out.println(YangYaNa.yang());

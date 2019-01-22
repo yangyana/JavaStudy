@@ -1,7 +1,5 @@
 package com.yyn.xiushifu;
 
-import com.yyn.demo.JiBenShuJuLeiXing2;
-
 /**
  * Created By Administrator
  * Date: 2018/11/25

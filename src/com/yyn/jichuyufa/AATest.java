@@ -1,4 +1,6 @@
-package com.yyn;
+package com.yyn.jichuyufa;
+
+import com.yyn.jichuyufa.AA;
 
 /**
  * Created By Administrator

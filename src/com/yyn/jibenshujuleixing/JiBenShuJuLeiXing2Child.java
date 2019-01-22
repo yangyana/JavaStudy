@@ -1,4 +1,6 @@
-package com.yyn.demo;
+package com.yyn.jibenshujuleixing;
+
+import com.yyn.jibenshujuleixing.JiBenShuJuLeiXing2;
 
 /**
  * Created By Administrator

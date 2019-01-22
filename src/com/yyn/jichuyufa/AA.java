@@ -1,4 +1,4 @@
-package com.yyn;
+package com.yyn.jichuyufa;
 
 /**
  * Created By Administrator
