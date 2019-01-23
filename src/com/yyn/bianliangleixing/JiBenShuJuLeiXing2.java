@@ -1,4 +1,4 @@
-package com.yyn.jibenshujuleixing;
+package com.yyn.bianliangleixing;
 
 /**
  * Created By Administrator

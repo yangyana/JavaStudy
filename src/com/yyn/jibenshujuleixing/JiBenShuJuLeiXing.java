@@ -15,7 +15,7 @@ public class JiBenShuJuLeiXing {
         String putaogan = "2";
         System.out.println(putaogan);
         byte aa = 126;
-        byte aa2 = 2;
+        byte aa2 = 3;
         Byte aa3 = 126;
         String aa5 = "12";
         byte aa6 = 0;
@@ -31,7 +31,7 @@ public class JiBenShuJuLeiXing {
 
         System.out.println(aa);
         System.out.println(aa2);
-        System.out.println(aa + aa2);
+        System.out.println(aa + aa2);//129
         System.out.println("Byte aa3 = " + aa3);
         System.out.println("Byte 最小值 = " + Byte.MIN_VALUE);
         System.out.println("Byte 最大值 = " + Byte.MAX_VALUE);
@@ -80,7 +80,7 @@ public class JiBenShuJuLeiXing {
         boolean z;
         boolean zz = false;
         System.out.println(zz);
-        boolean z3 = Boolean.parseBoolean("false aa");
+        boolean z3 = Boolean.parseBoolean("false aa");//
         System.out.println(z3);
         if (z3) {
             System.out.println("--->true");

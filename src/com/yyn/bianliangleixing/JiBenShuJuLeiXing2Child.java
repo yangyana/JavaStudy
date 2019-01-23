@@ -1,6 +1,6 @@
-package com.yyn.jibenshujuleixing;
+package com.yyn.bianliangleixing;
 
-import com.yyn.jibenshujuleixing.JiBenShuJuLeiXing2;
+import com.yyn.bianliangleixing.JiBenShuJuLeiXing2;
 
 /**
  * Created By Administrator
