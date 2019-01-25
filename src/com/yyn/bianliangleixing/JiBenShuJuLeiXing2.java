@@ -52,6 +52,11 @@ public class JiBenShuJuLeiXing2 {
 
         byte byteA = 1;// 局部变量
         System.out.println("局部变量 byteA = " + byteA);
-
+/**
+ 实例变量、类变量都是在类里面，方法之外声明的；
+ 类变量和实例变量的唯一区别：
+ 类变量被static修饰，实例变量没有。
+ 局部变量：声明在方法内或语句块中（如：try catch），只能在当前方法内被访问。
+ **/
     }
 }
