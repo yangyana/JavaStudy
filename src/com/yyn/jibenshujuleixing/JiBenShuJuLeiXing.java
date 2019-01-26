@@ -103,5 +103,11 @@ public class JiBenShuJuLeiXing {
         double xx = 2;
         System.out.println(ss / xx);
 
+        /**
+         总结;
+         引用类型的parse方法除了parseBoolean不会抛出异常，其他都会。
+         所以使用时要用try  catch包裹着
+         **/
+
     }
 }
