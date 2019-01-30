@@ -8,10 +8,13 @@ package com.yyn.number;
 public class MathTest {
     public static void main(String[] str) {
         double a = -520.1314;
+        double a2 = 520.1314;
         double b=1314.520;
         System.out.println("Math.abs(a)="+Math.abs(a));//绝对值
-        System.out.println("Math.ceil(a)="+Math.ceil(a));//向左取整
-        System.out.println("Math.floor(a)="+Math.floor(a));//向右取整
+        System.out.println("Math.ceil(a)="+Math.ceil(a));//向左取整 -520.0  数值变大！！！
+        System.out.println("Math.floor(a)="+Math.floor(a));//向右取整  -521.0  数值变小！！！
+        System.out.println("Math.ceil(a2)="+Math.ceil(a2));//向左取整  521.0
+        System.out.println("Math.floor(a2)="+Math.floor(a2));//向右取整 520.0
         System.out.println("Math.rint(a)="+Math.rint(a));//返回最近的整数
         System.out.println("Math.min(a,b)="+Math.min(a, b));//最小值
         System.out.println("Math.max(a,b)="+Math.max(a, b));//最大值
@@ -21,6 +24,8 @@ public class MathTest {
         Math.abs(a)=520.1314
         Math.ceil(a)=-520.0
         Math.floor(a)=-521.0
+        Math.ceil(a2)=521.0
+        Math.floor(a2)=520.0
         Math.rint(a)=-520.0
         Math.min(a,b)=-520.1314
         Math.max(a,b)=1314.52

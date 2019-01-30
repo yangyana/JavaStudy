@@ -33,6 +33,11 @@ public class NumberTest {
         j = 1
         true*/
 
+//        int aaa;
+        int aaa=1;
+        System.out.println(aaa);// 内部变量在使用前，必须要初始化
+        int ccc = aaa+1;
+
     }
 
 }
