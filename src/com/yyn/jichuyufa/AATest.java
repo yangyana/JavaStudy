@@ -1,7 +1,5 @@
 package com.yyn.jichuyufa;
 
-import com.yyn.jichuyufa.AA;
-
 /**
  * Created By Administrator
  * Date: 2019/1/7
