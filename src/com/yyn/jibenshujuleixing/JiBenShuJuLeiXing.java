@@ -17,15 +17,31 @@ public class JiBenShuJuLeiXing {
         byte aa = 126;
         byte aa2 = 3;
         Byte aa3 = 126;
-        String aa5 = "12";
+        String aa5 = "129";
         byte aa6 = 0;
+
+        try {
+            aa6 = Byte.parseByte(aa5);
+            aa6 = Byte.parseByte(aa5);
+        } catch (NumberFormatException e) {
+            e.printStackTrace();
+        }
+
+        try{
+            aa6 = Byte.parseByte(aa5);
+        }catch (NumberFormatException e){
+            System.out.println("铺捉到异常了");
+            aa6=120;
+        }
+
+
         try {
             aa6 = Byte.parseByte(aa5);
             aa6 = 99;
         } catch (NumberFormatException e) {
             System.out.println("捕捉到异常了");
             aa6 = 100;
-//            e.printStackTrace();
+            e.printStackTrace();
         }
 
 
